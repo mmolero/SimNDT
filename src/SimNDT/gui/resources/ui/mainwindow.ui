@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>742</width>
+    <height>566</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>3000</width>
+    <height>3000</height>
+   </size>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::NoFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>SimNDT</string>
+  </property>
+  <property name="locale">
+   <locale language="English" country="UnitedStates"/>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>false</bool>
+  </property>
+  <property name="dockOptions">
+   <set>QMainWindow::AllowTabbedDocks|QMainWindow::AnimatedDocks</set>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>742</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuConfiguration">
+    <property name="title">
+     <string>Configuration</string>
+    </property>
+    <widget class="QMenu" name="menuNew_Simulation_Scenario">
+     <property name="toolTip">
+      <string>New Scenario</string>
+     </property>
+     <property name="statusTip">
+      <string>New Scenario</string>
+     </property>
+     <property name="title">
+      <string>New Simulation Scenario</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/newImage.png</normaloff>:/newImage.png</iconset>
+     </property>
+     <widget class="QMenu" name="menuAdd_Microstructure">
+      <property name="title">
+       <string>Add Concrete Microstructure Model</string>
+      </property>
+      <addaction name="actionTwo_Phase_Model_Dry_Case"/>
+      <addaction name="actionThree_Phase_Model_Dry_Case"/>
+      <addaction name="separator"/>
+      <addaction name="actionTwo_Phase_Model_Immersion_Case"/>
+      <addaction name="actionThree_Phase_Model_Immersion_Case"/>
+     </widget>
+     <addaction name="actionNew_Geometry_Model"/>
+     <addaction name="separator"/>
+     <addaction name="actionAdd_Ellipse"/>
+     <addaction name="actionAdd_Rectangle"/>
+     <addaction name="separator"/>
+     <addaction name="menuAdd_Microstructure"/>
+     <addaction name="separator"/>
+     <addaction name="actionLoad_Scenario_From_Image"/>
+     <addaction name="actionPreview_Labeled_Scenario"/>
+     <addaction name="separator"/>
+    </widget>
+    <widget class="QMenu" name="menuInspection_Setup">
+     <property name="title">
+      <string>Inspection Setup</string>
+     </property>
+     <addaction name="actionSingle_Launch_Inspection"/>
+     <addaction name="actionLinear_Scan_Inspections"/>
+     <addaction name="actionTomography_Inspections"/>
+    </widget>
+    <addaction name="menuNew_Simulation_Scenario"/>
+    <addaction name="actionMaterials_Setup"/>
+    <addaction name="actionBoundaty_Conditions_Setup"/>
+    <addaction name="menuInspection_Setup"/>
+    <addaction name="actionSimulation_Setup"/>
+    <addaction name="actionCheck_Simulation_Setup"/>
+    <addaction name="separator"/>
+    <addaction name="actionRun_Simulation"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuPlotting_Tools">
+    <property name="title">
+     <string>Plotting Tools</string>
+    </property>
+    <widget class="QMenu" name="menuSingle_Launch_Inspections">
+     <property name="title">
+      <string>Single Launch Inspections</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/singleLaunch.png</normaloff>:/singleLaunch.png</iconset>
+     </property>
+     <addaction name="actionPlot_Receiver_Signals_SingleLaunch"/>
+     <addaction name="actionPlot_Receiver_Signals_Spectra"/>
+    </widget>
+    <widget class="QMenu" name="menuLinear_Scan_Inspections">
+     <property name="title">
+      <string>Linear Scan Inspections</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/linearScan.png</normaloff>:/linearScan.png</iconset>
+     </property>
+     <addaction name="actionPlot_Receivers_Signals_LinearScan"/>
+    </widget>
+    <widget class="QMenu" name="menuTomography_Inspections">
+     <property name="title">
+      <string>Tomography Inspections</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/tomoSetup.png</normaloff>:/tomoSetup.png</iconset>
+     </property>
+     <addaction name="actionPlot_Receivers_Signals_Tomography"/>
+    </widget>
+    <addaction name="menuSingle_Launch_Inspections"/>
+    <addaction name="menuLinear_Scan_Inspections"/>
+    <addaction name="menuTomography_Inspections"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <addaction name="actionCreate_Video_from_Images"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuConfiguration"/>
+   <addaction name="menuPlotting_Tools"/>
+   <addaction name="menuTools"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="sizeGripEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <action name="actionMaterials_Setup">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/material.png</normaloff>:/material.png</iconset>
+   </property>
+   <property name="text">
+    <string>Materials Setup</string>
+   </property>
+   <property name="statusTip">
+    <string>Materials Setup</string>
+   </property>
+  </action>
+  <action name="actionBoundaty_Conditions_Setup">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/boundary.png</normaloff>:/boundary.png</iconset>
+   </property>
+   <property name="text">
+    <string>Boundary Conditions Setup</string>
+   </property>
+   <property name="statusTip">
+    <string>Boundary Conditions Setup</string>
+   </property>
+  </action>
+  <action name="actionSimulation_Setup">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/simModel.png</normaloff>:/simModel.png</iconset>
+   </property>
+   <property name="text">
+    <string>Simulation Setup</string>
+   </property>
+  </action>
+  <action name="actionRun_Simulation">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/runGL.png</normaloff>:/runGL.png</iconset>
+   </property>
+   <property name="text">
+    <string>Run Simulation</string>
+   </property>
+   <property name="statusTip">
+    <string>Run_Simulation</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+Alt+R</string>
+   </property>
+  </action>
+  <action name="actionCreate_Video_from_Images">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/snapshots.png</normaloff>:/snapshots.png</iconset>
+   </property>
+   <property name="text">
+    <string>Create Video from Images</string>
+   </property>
+   <property name="statusTip">
+    <string>Create Video from Images</string>
+   </property>
+  </action>
+  <action name="actionNew_Geometry_Model">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/newImage.png</normaloff>:/newImage.png</iconset>
+   </property>
+   <property name="text">
+    <string>New Geometry Model</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+Alt+N</string>
+   </property>
+  </action>
+  <action name="actionAdd_Ellipse">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/ellipse.png</normaloff>:/ellipse.png</iconset>
+   </property>
+   <property name="text">
+    <string>Add Ellipse</string>
+   </property>
+   <property name="statusTip">
+    <string>Add Ellipse</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+Alt+E</string>
+   </property>
+  </action>
+  <action name="actionAdd_Rectangle">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/rectangle.png</normaloff>:/rectangle.png</iconset>
+   </property>
+   <property name="text">
+    <string>Add Rectangle</string>
+   </property>
+   <property name="statusTip">
+    <string>Add Rectangle</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+Alt+R</string>
+   </property>
+  </action>
+  <action name="actionLoad_Scenario_From_Image">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/loadImage.png</normaloff>:/loadImage.png</iconset>
+   </property>
+   <property name="text">
+    <string>Load Scenario From Image</string>
+   </property>
+   <property name="statusTip">
+    <string>Load Scenario From Image</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+Alt+I</string>
+   </property>
+  </action>
+  <action name="actionPreview_Labeled_Scenario">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/previewImage.png</normaloff>:/previewImage.png</iconset>
+   </property>
+   <property name="text">
+    <string>Preview Labeled Scenario</string>
+   </property>
+   <property name="statusTip">
+    <string>Preview Labeled Scenario</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+Alt+P</string>
+   </property>
+  </action>
+  <action name="actionSingle_Launch_Inspection">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/singleLaunch.png</normaloff>:/singleLaunch.png</iconset>
+   </property>
+   <property name="text">
+    <string>Single Launch Inspection</string>
+   </property>
+   <property name="statusTip">
+    <string>Single Launch Inspection</string>
+   </property>
+  </action>
+  <action name="actionLinear_Scan_Inspections">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/linearScan.png</normaloff>:/linearScan.png</iconset>
+   </property>
+   <property name="text">
+    <string>Linear Scan Inspections</string>
+   </property>
+  </action>
+  <action name="actionTomography_Inspections">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/tomoSetup.png</normaloff>:/tomoSetup.png</iconset>
+   </property>
+   <property name="text">
+    <string>Tomography Inspections</string>
+   </property>
+  </action>
+  <action name="actionRotate_The_Scenario_90_Clockwise">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/rotate90H.png</normaloff>:/rotate90H.png</iconset>
+   </property>
+   <property name="text">
+    <string>Rotate The Scenario 90º Clockwise</string>
+   </property>
+   <property name="toolTip">
+    <string>Rotate The Scenario 90º Clockwise</string>
+   </property>
+  </action>
+  <action name="actionRotate_The_Scenario_90_Counter_Clockwise">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/rotate90A.png</normaloff>:/rotate90A.png</iconset>
+   </property>
+   <property name="text">
+    <string>Rotate The Scenario 90º Counter Clockwise</string>
+   </property>
+   <property name="toolTip">
+    <string>Rotate The Scenario 90º Counter Clockwise</string>
+   </property>
+  </action>
+  <action name="actionCheck_Simulation_Setup">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/check3.png</normaloff>:/check3.png</iconset>
+   </property>
+   <property name="text">
+    <string>Check Simulation Setup</string>
+   </property>
+  </action>
+  <action name="actionPlot_Receiver_Signals_SingleLaunch">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/signal.png</normaloff>:/signal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Plot Receiver Signals</string>
+   </property>
+  </action>
+  <action name="actionPlot_Receiver_Signals_Spectra">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/fft.png</normaloff>:/fft.png</iconset>
+   </property>
+   <property name="text">
+    <string>Plot Receiver Spectra</string>
+   </property>
+  </action>
+  <action name="actionPlot_Receivers_Signals_LinearScan">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/signal.png</normaloff>:/signal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Plot Receivers Signals</string>
+   </property>
+  </action>
+  <action name="actionPlot_Receivers_Signals_Tomography">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/signal.png</normaloff>:/signal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Plot Receivers Signals</string>
+   </property>
+  </action>
+  <action name="actionAdd_Two_Phase_Concrete_Microstructure">
+   <property name="text">
+    <string>Add Two-Phase Concrete Microstructure</string>
+   </property>
+  </action>
+  <action name="actionAdd_Three_Phase_Concrete_Microstructure">
+   <property name="text">
+    <string>Add Three-Phase Concrete Microstructure</string>
+   </property>
+  </action>
+  <action name="actionTwo_Phase_Model_Dry_Case">
+   <property name="text">
+    <string>Two-Phase Model (Dry Case)</string>
+   </property>
+  </action>
+  <action name="actionThree_Phase_Model_Dry_Case">
+   <property name="text">
+    <string>Three-Phase Model (Dry Case)</string>
+   </property>
+  </action>
+  <action name="actionTwo_Phase_Model_Immersion_Case">
+   <property name="text">
+    <string>Two-Phase Model (Immersion Case)</string>
+   </property>
+  </action>
+  <action name="actionThree_Phase_Model_Immersion_Case">
+   <property name="text">
+    <string>Three-Phase Model (Immersion Case)</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
