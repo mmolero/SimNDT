@@ -6,6 +6,8 @@
 #define MyAppPublisher "Miguel Molero"
 #define MyAppURL "https://github.com/mmolero/SimNDT"
 #define MyAppExeName "SimNDT.exe"
+#define CurrentYear 2018
+
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
@@ -21,7 +23,7 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
-OutputBaseFilename=setup-SimNDT
+OutputBaseFilename=setup-SimNDT-v{#MyAppVersion}
 Compression=lzma2
 SolidCompression=yes
 SetupIconFile="resources\logo.ico"
