@@ -32,7 +32,7 @@ from SimNDT.core.receivers import Receivers
 from SimNDT.core.transducer import Transducer
 from SimNDT.core.simulation import Simulation
 
-YEAR = 2020
+YEAR = 2080
 MONTH = 12
 
 
