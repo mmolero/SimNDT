@@ -5,6 +5,7 @@ from PySide.QtCore import *
 from PySide.QtGui import *
 
 from SimNDT.gui.resources_rc import *
+from SimNDT.gui.MainWindow import Info
 
 try:
     import Tkinter
@@ -12,17 +13,17 @@ try:
 except:
     pass
 
+info = Info()
 
 class SplashScreen(QSplashScreen):
     def __init__(self,  pixmap, f):
         super(SplashScreen, self).__init__(pixmap, f)
         self.m_progress= 0
         self.setCursor(Qt.BusyCursor)
-        self.showMessage("SimNDT v0.5", Qt.AlignBottom | Qt.AlignRight, Qt.white)
+        self.showMessage("SimNDT v{0}".format(info.version), Qt.AlignBottom | Qt.AlignRight, Qt.white)
 
     def drawContents(self, painter):
         QSplashScreen.drawContents(self, painter)
-
 
     def setProgress(self, value):
 

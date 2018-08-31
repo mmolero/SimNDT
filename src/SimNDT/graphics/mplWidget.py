@@ -122,10 +122,7 @@ class PlotInline(QDialog):
 		self.mpl.ax.set_title("Time Signal", fontsize = 10)
 		self.mpl.ax.set_xlabel("Time ($\mu$s)")
 		self.mpl.ax.set_ylabel("Amplitude")
-		self.mpl.ax.hold(False)
-		
-	
-	
+
 	def update(self, value):
 		self.data.append(value)
 		N = len(self.data)

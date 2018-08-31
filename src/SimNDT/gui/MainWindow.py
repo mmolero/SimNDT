@@ -37,10 +37,12 @@ MONTH = 12
 
 
 class Info:
-    def __init__(self, version="0.5", date="21-01-2018"):
-        self.version = version
-        self.date = date
+    def __init__(self):
+        self.version = "0.51"
+        self.date = "31-08-2018"
 
+
+info = Info()
 
 class MainWindow(QMainWindow, Ui_MainWindow, ManagerDialogs, ManagerPlots):
     def __init__(self, parent=None):
@@ -129,9 +131,6 @@ class MainWindow(QMainWindow, Ui_MainWindow, ManagerDialogs, ManagerPlots):
     def init(self):
 
         self.SimNDT_Info = Info()
-
-        print(self.SimNDT_Info.date)
-
         self.SimNDT_Check = False
 
         self.dirty = False
@@ -590,10 +589,9 @@ class MainWindow(QMainWindow, Ui_MainWindow, ManagerDialogs, ManagerPlots):
     def helpAbout(self):
 
         QMessageBox.about(self, "About SimNDT",
-                          """ <b> SimNDT </b> v %s, date: %s
+                          """ <b> SimNDT </b> v{0}, date: {1}
                               <p> Copyright &#169; 2014 M.Molero </p>
                               <p> Ultrasonic Simulation Software
-                              <p> Valid until %s
                               <p> info:
                               <p> miguel.molero@gmail.com
                               <p> https://sites.google.com/site/miguelmolero/
@@ -602,7 +600,7 @@ class MainWindow(QMainWindow, Ui_MainWindow, ManagerDialogs, ManagerPlots):
                               <p> M.Molero, U. Iturraran-Viveros, S. Sofia, M.G. Hernandez,
                               <p> Optimized OpenCL implementation of the Elastodynamic Finite Integration Technique for viscoelastic media,
                               <p> Computer Physics Communications Volume 185, Issue 10, October 2014, Pages 2683-2696
-                          """ % (self.SimNDT_Info.version, self.SimNDT_Info.date, "%s-%s" % (MONTH, YEAR)))
+                          """.format(info.version, info.date))
 
     def helpHelp(self):
 
