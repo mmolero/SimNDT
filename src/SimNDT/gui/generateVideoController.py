@@ -7,6 +7,7 @@ import copy, os
 from PySide.QtCore import *
 from PySide.QtGui import *
 
+
 try:
     import cv2
 except:

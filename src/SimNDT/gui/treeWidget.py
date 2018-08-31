@@ -252,7 +252,7 @@ class TreeWidget(QTreeWidget):
 
             simulation_label = ("Time Scale", "Max. Frequency (MHz)", "Points/Cycle",
                                 "Simulation Time", "Device", "OpenCL",
-                                "dx (mm)", "dt (%ss)" % chr(956), "Numerical Model Size")
+                                "dx (mm)", "dt (%ss)" % MU, "Numerical Model Size")
 
             freq = SimNDT_Simulation.MaxFreq * 1e-6
             dx = "%.4f" % (SimNDT_Simulation.dx * 1e3)

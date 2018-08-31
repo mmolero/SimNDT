@@ -551,7 +551,7 @@ typedef volatile __pyx_atomic_int_type __pyx_atomic_int;
 #endif
 
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":726
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":726
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -560,7 +560,7 @@ typedef volatile __pyx_atomic_int_type __pyx_atomic_int;
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":727
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":727
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -569,7 +569,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":728
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":728
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -578,7 +578,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":729
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":729
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -587,7 +587,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":733
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":733
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -596,7 +596,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":734
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":734
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -605,7 +605,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":735
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":735
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -614,7 +614,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":736
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":736
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -623,7 +623,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":740
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":740
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -632,7 +632,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":741
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":741
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -641,7 +641,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":750
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":750
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
@@ -650,7 +650,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
  */
 typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":751
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":751
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
@@ -659,7 +659,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":752
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":752
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -668,7 +668,7 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":754
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":754
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
@@ -677,7 +677,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":755
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":755
  * 
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
@@ -686,7 +686,7 @@ typedef npy_ulong __pyx_t_5numpy_uint_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":756
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":756
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -695,7 +695,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":758
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":758
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -704,7 +704,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":759
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":759
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -713,7 +713,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":761
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":761
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -722,7 +722,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":762
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":762
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -731,7 +731,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":763
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":763
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -766,7 +766,7 @@ struct __pyx_MemviewEnum_obj;
 struct __pyx_memoryview_obj;
 struct __pyx_memoryviewslice_obj;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":765
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":765
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -775,7 +775,7 @@ struct __pyx_memoryviewslice_obj;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":766
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":766
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -784,7 +784,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":767
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":767
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -793,7 +793,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":769
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":769
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -1657,9 +1657,9 @@ static char __pyx_k_strided_and_direct_or_indirect[] = "<strided and direct or i
 static char __pyx_k_unknown_dtype_code_in_numpy_pxd[] = "unknown dtype code in numpy.pxd (%d)";
 static char __pyx_k_All_dimensions_preceding_dimensi[] = "All dimensions preceding dimension %d must be indexed and not sliced";
 static char __pyx_k_Buffer_view_does_not_expose_stri[] = "Buffer view does not expose strides";
+static char __pyx_k_C_Users_miguel_Dropbox_SimNDT_sr[] = "C:\\Users\\miguel\\Dropbox\\SimNDT\\src\\SimNDT\\engine\\efit2dcython.pyx";
 static char __pyx_k_Can_only_create_a_buffer_that_is[] = "Can only create a buffer that is contiguous in memory.";
 static char __pyx_k_Cannot_transpose_memoryview_with[] = "Cannot transpose memoryview with indirect dimensions";
-static char __pyx_k_D_SimNDT_0_40_SimNDT_engine_efit[] = "D:\\SimNDT\\0.40\\SimNDT\\engine\\efit2dcython.pyx";
 static char __pyx_k_Empty_shape_tuple_for_cython_arr[] = "Empty shape tuple for cython.array";
 static char __pyx_k_Format_string_allocated_too_shor[] = "Format string allocated too short, see comment in numpy.pxd";
 static char __pyx_k_Indirect_dimensions_not_supporte[] = "Indirect dimensions not supported";
@@ -1678,9 +1678,9 @@ static PyObject *__pyx_kp_s_Buffer_view_does_not_expose_stri;
 static PyObject *__pyx_n_s_C11;
 static PyObject *__pyx_n_s_C12;
 static PyObject *__pyx_n_s_C44;
+static PyObject *__pyx_kp_s_C_Users_miguel_Dropbox_SimNDT_sr;
 static PyObject *__pyx_kp_s_Can_only_create_a_buffer_that_is;
 static PyObject *__pyx_kp_s_Cannot_index_with_type_s;
-static PyObject *__pyx_kp_s_D_SimNDT_0_40_SimNDT_engine_efit;
 static PyObject *__pyx_n_s_ETA_S;
 static PyObject *__pyx_n_s_ETA_SS;
 static PyObject *__pyx_n_s_ETA_VS;
@@ -3773,7 +3773,7 @@ static PyObject *__pyx_pf_12efit2dcython_6stressVoigt(CYTHON_UNUSED PyObject *__
   return __pyx_r;
 }
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":197
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":197
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -3823,7 +3823,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_GIVEREF(__pyx_v_info->obj);
   }
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":203
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":203
  *             # of flags
  * 
  *             if info == NULL: return             # <<<<<<<<<<<<<<
@@ -3836,7 +3836,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L0;
   }
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":206
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":206
  * 
  *             cdef int copy_shape, i, ndim
  *             cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -3845,7 +3845,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_endian_detector = 1;
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":207
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":207
  *             cdef int copy_shape, i, ndim
  *             cdef int endian_detector = 1
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -3854,7 +3854,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":209
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":209
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)
  * 
  *             ndim = PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -3863,7 +3863,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_ndim = PyArray_NDIM(__pyx_v_self);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":211
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":211
  *             ndim = PyArray_NDIM(self)
  * 
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -3873,7 +3873,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":212
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":212
  * 
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 copy_shape = 1             # <<<<<<<<<<<<<<
@@ -3885,7 +3885,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   /*else*/ {
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":214
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":214
  *                 copy_shape = 1
  *             else:
  *                 copy_shape = 0             # <<<<<<<<<<<<<<
@@ -3896,7 +3896,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L4:;
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":216
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":216
  *                 copy_shape = 0
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -3910,7 +3910,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L6_bool_binop_done;
   }
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":217
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":217
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -3922,7 +3922,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_L6_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":218
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":218
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
@@ -3936,7 +3936,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     {__pyx_filename = __pyx_f[1]; __pyx_lineno = 218; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":220
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":220
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -3950,7 +3950,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L9_bool_binop_done;
   }
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":221
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":221
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -3962,7 +3962,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_L9_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":222
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":222
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
@@ -3976,7 +3976,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     {__pyx_filename = __pyx_f[1]; __pyx_lineno = 222; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":224
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":224
  *                 raise ValueError(u"ndarray is not Fortran contiguous")
  * 
  *             info.buf = PyArray_DATA(self)             # <<<<<<<<<<<<<<
@@ -3985,7 +3985,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->buf = PyArray_DATA(__pyx_v_self);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":225
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":225
  * 
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim             # <<<<<<<<<<<<<<
@@ -3994,7 +3994,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->ndim = __pyx_v_ndim;
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":226
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":226
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim
  *             if copy_shape:             # <<<<<<<<<<<<<<
@@ -4004,7 +4004,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = (__pyx_v_copy_shape != 0);
   if (__pyx_t_1) {
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":229
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":229
  *                 # Allocate new buffer for strides and shape info.
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>stdlib.malloc(sizeof(Py_ssize_t) * <size_t>ndim * 2)             # <<<<<<<<<<<<<<
@@ -4013,7 +4013,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->strides = ((Py_ssize_t *)malloc((((sizeof(Py_ssize_t)) * ((size_t)__pyx_v_ndim)) * 2)));
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":230
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":230
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>stdlib.malloc(sizeof(Py_ssize_t) * <size_t>ndim * 2)
  *                 info.shape = info.strides + ndim             # <<<<<<<<<<<<<<
@@ -4022,7 +4022,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->shape = (__pyx_v_info->strides + __pyx_v_ndim);
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":231
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":231
  *                 info.strides = <Py_ssize_t*>stdlib.malloc(sizeof(Py_ssize_t) * <size_t>ndim * 2)
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):             # <<<<<<<<<<<<<<
@@ -4033,7 +4033,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
       __pyx_v_i = __pyx_t_5;
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":232
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":232
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]             # <<<<<<<<<<<<<<
@@ -4042,7 +4042,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
       (__pyx_v_info->strides[__pyx_v_i]) = (PyArray_STRIDES(__pyx_v_self)[__pyx_v_i]);
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":233
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":233
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]
  *                     info.shape[i] = PyArray_DIMS(self)[i]             # <<<<<<<<<<<<<<
@@ -4055,7 +4055,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   /*else*/ {
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":235
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":235
  *                     info.shape[i] = PyArray_DIMS(self)[i]
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -4064,7 +4064,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->strides = ((Py_ssize_t *)PyArray_STRIDES(__pyx_v_self));
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":236
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":236
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -4075,7 +4075,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L11:;
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":237
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":237
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL             # <<<<<<<<<<<<<<
@@ -4084,7 +4084,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->suboffsets = NULL;
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":238
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":238
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)             # <<<<<<<<<<<<<<
@@ -4093,7 +4093,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->itemsize = PyArray_ITEMSIZE(__pyx_v_self);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":239
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":239
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)
  *             info.readonly = not PyArray_ISWRITEABLE(self)             # <<<<<<<<<<<<<<
@@ -4102,7 +4102,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->readonly = (!(PyArray_ISWRITEABLE(__pyx_v_self) != 0));
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":242
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":242
  * 
  *             cdef int t
  *             cdef char* f = NULL             # <<<<<<<<<<<<<<
@@ -4111,7 +4111,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_f = NULL;
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":243
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":243
  *             cdef int t
  *             cdef char* f = NULL
  *             cdef dtype descr = self.descr             # <<<<<<<<<<<<<<
@@ -4123,7 +4123,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_v_descr = ((PyArray_Descr *)__pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":247
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":247
  *             cdef int offset
  * 
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)             # <<<<<<<<<<<<<<
@@ -4132,7 +4132,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_hasfields = PyDataType_HASFIELDS(__pyx_v_descr);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":249
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":249
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)
  * 
  *             if not hasfields and not copy_shape:             # <<<<<<<<<<<<<<
@@ -4150,7 +4150,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_L15_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":251
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":251
  *             if not hasfields and not copy_shape:
  *                 # do not call releasebuffer
  *                 info.obj = None             # <<<<<<<<<<<<<<
@@ -4166,7 +4166,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   /*else*/ {
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":254
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":254
  *             else:
  *                 # need to call releasebuffer
  *                 info.obj = self             # <<<<<<<<<<<<<<
@@ -4181,7 +4181,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L14:;
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":256
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":256
  *                 info.obj = self
  * 
  *             if not hasfields:             # <<<<<<<<<<<<<<
@@ -4191,7 +4191,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = ((!(__pyx_v_hasfields != 0)) != 0);
   if (__pyx_t_1) {
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":257
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":257
  * 
  *             if not hasfields:
  *                 t = descr.type_num             # <<<<<<<<<<<<<<
@@ -4201,7 +4201,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_4 = __pyx_v_descr->type_num;
     __pyx_v_t = __pyx_t_4;
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":258
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":258
  *             if not hasfields:
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -4221,7 +4221,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     }
     __pyx_L20_next_or:;
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":259
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":259
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -4239,7 +4239,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_L19_bool_binop_done:;
     if (__pyx_t_1) {
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":260
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":260
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -4253,7 +4253,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       {__pyx_filename = __pyx_f[1]; __pyx_lineno = 260; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     }
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":277
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":277
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"
  *                 elif t == NPY_OBJECT:      f = "O"             # <<<<<<<<<<<<<<
@@ -4262,7 +4262,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     switch (__pyx_v_t) {
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":261
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":261
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"             # <<<<<<<<<<<<<<
@@ -4273,7 +4273,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_b;
       break;
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":262
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":262
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"             # <<<<<<<<<<<<<<
@@ -4284,7 +4284,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_B;
       break;
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":263
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":263
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"             # <<<<<<<<<<<<<<
@@ -4295,7 +4295,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_h;
       break;
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":264
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":264
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"             # <<<<<<<<<<<<<<
@@ -4306,7 +4306,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_H;
       break;
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":265
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":265
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"             # <<<<<<<<<<<<<<
@@ -4317,7 +4317,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_i;
       break;
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":266
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":266
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"             # <<<<<<<<<<<<<<
@@ -4328,7 +4328,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_I;
       break;
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":267
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":267
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"             # <<<<<<<<<<<<<<
@@ -4339,7 +4339,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_l;
       break;
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":268
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":268
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"             # <<<<<<<<<<<<<<
@@ -4350,7 +4350,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_L;
       break;
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":269
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":269
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"             # <<<<<<<<<<<<<<
@@ -4361,7 +4361,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_q;
       break;
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":270
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":270
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"             # <<<<<<<<<<<<<<
@@ -4372,7 +4372,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_Q;
       break;
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":271
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":271
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"             # <<<<<<<<<<<<<<
@@ -4383,7 +4383,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_f;
       break;
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":272
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":272
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"             # <<<<<<<<<<<<<<
@@ -4394,7 +4394,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_d;
       break;
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":273
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":273
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"             # <<<<<<<<<<<<<<
@@ -4405,7 +4405,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_g;
       break;
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":274
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":274
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"             # <<<<<<<<<<<<<<
@@ -4416,7 +4416,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_Zf;
       break;
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":275
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":275
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"             # <<<<<<<<<<<<<<
@@ -4427,7 +4427,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_Zd;
       break;
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":276
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":276
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"             # <<<<<<<<<<<<<<
@@ -4438,7 +4438,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_Zg;
       break;
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":277
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":277
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"
  *                 elif t == NPY_OBJECT:      f = "O"             # <<<<<<<<<<<<<<
@@ -4450,7 +4450,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       default:
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":279
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":279
  *                 elif t == NPY_OBJECT:      f = "O"
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -4476,7 +4476,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
     }
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":280
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":280
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f             # <<<<<<<<<<<<<<
@@ -4485,7 +4485,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->format = __pyx_v_f;
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":281
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":281
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f
  *                 return             # <<<<<<<<<<<<<<
@@ -4497,7 +4497,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   /*else*/ {
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":283
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":283
  *                 return
  *             else:
  *                 info.format = <char*>stdlib.malloc(_buffer_format_string_len)             # <<<<<<<<<<<<<<
@@ -4506,7 +4506,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->format = ((char *)malloc(255));
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":284
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":284
  *             else:
  *                 info.format = <char*>stdlib.malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment             # <<<<<<<<<<<<<<
@@ -4515,7 +4515,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     (__pyx_v_info->format[0]) = '^';
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":285
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":285
  *                 info.format = <char*>stdlib.malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0             # <<<<<<<<<<<<<<
@@ -4524,7 +4524,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_offset = 0;
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":286
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":286
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0
  *                 f = _util_dtypestring(descr, info.format + 1,             # <<<<<<<<<<<<<<
@@ -4534,7 +4534,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_7 = __pyx_f_5numpy__util_dtypestring(__pyx_v_descr, (__pyx_v_info->format + 1), (__pyx_v_info->format + 255), (&__pyx_v_offset)); if (unlikely(__pyx_t_7 == NULL)) {__pyx_filename = __pyx_f[1]; __pyx_lineno = 286; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __pyx_v_f = __pyx_t_7;
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":289
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":289
  *                                       info.format + _buffer_format_string_len,
  *                                       &offset)
  *                 f[0] = c'\0' # Terminate format string             # <<<<<<<<<<<<<<
@@ -4544,7 +4544,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     (__pyx_v_f[0]) = '\x00';
   }
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":197
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":197
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -4576,7 +4576,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   return __pyx_r;
 }
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":291
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":291
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -4600,7 +4600,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("__releasebuffer__", 0);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":292
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":292
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
@@ -4610,7 +4610,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (PyArray_HASFIELDS(__pyx_v_self) != 0);
   if (__pyx_t_1) {
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":293
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":293
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):
  *                 stdlib.free(info.format)             # <<<<<<<<<<<<<<
@@ -4622,7 +4622,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   }
   __pyx_L3:;
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":294
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":294
  *             if PyArray_HASFIELDS(self):
  *                 stdlib.free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -4632,7 +4632,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":295
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":295
  *                 stdlib.free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 stdlib.free(info.strides)             # <<<<<<<<<<<<<<
@@ -4644,7 +4644,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   }
   __pyx_L4:;
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":291
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":291
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -4656,7 +4656,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __Pyx_RefNannyFinishContext();
 }
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":771
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":771
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -4673,7 +4673,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":772
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":772
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -4687,7 +4687,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":771
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":771
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -4706,7 +4706,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":774
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":774
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -4723,7 +4723,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":775
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":775
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -4737,7 +4737,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":774
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":774
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -4756,7 +4756,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":777
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":777
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -4773,7 +4773,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":778
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":778
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -4787,7 +4787,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":777
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":777
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -4806,7 +4806,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":780
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":780
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -4823,7 +4823,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":781
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":781
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -4837,7 +4837,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":780
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":780
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -4856,7 +4856,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":783
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":783
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -4873,7 +4873,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":784
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":784
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -4887,7 +4887,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":783
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":783
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -4906,7 +4906,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":786
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":786
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -4938,7 +4938,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_util_dtypestring", 0);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":793
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":793
  *     cdef int delta_offset
  *     cdef tuple i
  *     cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -4947,7 +4947,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_endian_detector = 1;
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":794
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":794
  *     cdef tuple i
  *     cdef int endian_detector = 1
  *     cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -4956,7 +4956,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":797
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":797
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -4978,7 +4978,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_childname, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":798
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":798
  * 
  *     for childname in descr.names:
  *         fields = descr.fields[childname]             # <<<<<<<<<<<<<<
@@ -4995,7 +4995,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_fields, ((PyObject*)__pyx_t_3));
     __pyx_t_3 = 0;
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":799
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":799
  *     for childname in descr.names:
  *         fields = descr.fields[childname]
  *         child, new_offset = fields             # <<<<<<<<<<<<<<
@@ -5034,7 +5034,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_new_offset, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":801
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":801
  *         child, new_offset = fields
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
@@ -5051,7 +5051,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((((__pyx_v_end - __pyx_v_f) - ((int)__pyx_t_5)) < 15) != 0);
     if (__pyx_t_6) {
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":802
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":802
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
@@ -5065,7 +5065,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       {__pyx_filename = __pyx_f[1]; __pyx_lineno = 802; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     }
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":804
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":804
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -5085,7 +5085,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L8_next_or:;
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":805
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":805
  * 
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -5103,7 +5103,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_L7_bool_binop_done:;
     if (__pyx_t_6) {
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":806
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":806
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -5117,7 +5117,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       {__pyx_filename = __pyx_f[1]; __pyx_lineno = 806; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     }
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":816
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":816
  * 
  *         # Output padding bytes
  *         while offset[0] < new_offset:             # <<<<<<<<<<<<<<
@@ -5133,7 +5133,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (!__pyx_t_6) break;
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":817
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":817
  *         # Output padding bytes
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte             # <<<<<<<<<<<<<<
@@ -5142,7 +5142,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       (__pyx_v_f[0]) = 120;
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":818
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":818
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte
  *             f += 1             # <<<<<<<<<<<<<<
@@ -5151,7 +5151,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       __pyx_v_f = (__pyx_v_f + 1);
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":819
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":819
  *             f[0] = 120 # "x"; pad byte
  *             f += 1
  *             offset[0] += 1             # <<<<<<<<<<<<<<
@@ -5162,7 +5162,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + 1);
     }
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":821
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":821
  *             offset[0] += 1
  * 
  *         offset[0] += child.itemsize             # <<<<<<<<<<<<<<
@@ -5172,7 +5172,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_8 = 0;
     (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + __pyx_v_child->elsize);
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":823
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":823
  *         offset[0] += child.itemsize
  * 
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
@@ -5182,7 +5182,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((!(PyDataType_HASFIELDS(__pyx_v_child) != 0)) != 0);
     if (__pyx_t_6) {
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":824
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":824
  * 
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num             # <<<<<<<<<<<<<<
@@ -5194,7 +5194,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_XDECREF_SET(__pyx_v_t, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":825
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":825
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
@@ -5204,7 +5204,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __pyx_t_6 = (((__pyx_v_end - __pyx_v_f) < 5) != 0);
       if (__pyx_t_6) {
 
-        /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":826
+        /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":826
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
@@ -5218,7 +5218,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         {__pyx_filename = __pyx_f[1]; __pyx_lineno = 826; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       }
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":829
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":829
  * 
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"             # <<<<<<<<<<<<<<
@@ -5236,7 +5236,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":830
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":830
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"             # <<<<<<<<<<<<<<
@@ -5254,7 +5254,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":831
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":831
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"             # <<<<<<<<<<<<<<
@@ -5272,7 +5272,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":832
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":832
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"             # <<<<<<<<<<<<<<
@@ -5290,7 +5290,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":833
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":833
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"             # <<<<<<<<<<<<<<
@@ -5308,7 +5308,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":834
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":834
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"             # <<<<<<<<<<<<<<
@@ -5326,7 +5326,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":835
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":835
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"             # <<<<<<<<<<<<<<
@@ -5344,7 +5344,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":836
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":836
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"             # <<<<<<<<<<<<<<
@@ -5362,7 +5362,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":837
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":837
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"             # <<<<<<<<<<<<<<
@@ -5380,7 +5380,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":838
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":838
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"             # <<<<<<<<<<<<<<
@@ -5398,7 +5398,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":839
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":839
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"             # <<<<<<<<<<<<<<
@@ -5416,7 +5416,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":840
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":840
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"             # <<<<<<<<<<<<<<
@@ -5434,7 +5434,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":841
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":841
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"             # <<<<<<<<<<<<<<
@@ -5452,7 +5452,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":842
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":842
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf             # <<<<<<<<<<<<<<
@@ -5472,7 +5472,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":843
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":843
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd             # <<<<<<<<<<<<<<
@@ -5492,7 +5492,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":844
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":844
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg             # <<<<<<<<<<<<<<
@@ -5512,7 +5512,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":845
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":845
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"             # <<<<<<<<<<<<<<
@@ -5531,7 +5531,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       }
       /*else*/ {
 
-        /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":847
+        /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":847
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -5554,7 +5554,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       }
       __pyx_L15:;
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":848
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":848
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *             f += 1             # <<<<<<<<<<<<<<
@@ -5566,7 +5566,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     /*else*/ {
 
-      /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":852
+      /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":852
  *             # Cython ignores struct boundary information ("T{...}"),
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)             # <<<<<<<<<<<<<<
@@ -5578,7 +5578,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L13:;
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":797
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":797
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -5588,7 +5588,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":853
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":853
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)
  *     return f             # <<<<<<<<<<<<<<
@@ -5598,7 +5598,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   __pyx_r = __pyx_v_f;
   goto __pyx_L0;
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":786
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":786
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -5623,7 +5623,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   return __pyx_r;
 }
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":969
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":969
  * 
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -5638,7 +5638,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   int __pyx_t_2;
   __Pyx_RefNannySetupContext("set_array_base", 0);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":971
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":971
  * cdef inline void set_array_base(ndarray arr, object base):
  *      cdef PyObject* baseptr
  *      if base is None:             # <<<<<<<<<<<<<<
@@ -5649,7 +5649,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":972
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":972
  *      cdef PyObject* baseptr
  *      if base is None:
  *          baseptr = NULL             # <<<<<<<<<<<<<<
@@ -5661,7 +5661,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   }
   /*else*/ {
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":974
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":974
  *          baseptr = NULL
  *      else:
  *          Py_INCREF(base) # important to do this before decref below!             # <<<<<<<<<<<<<<
@@ -5670,7 +5670,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
     Py_INCREF(__pyx_v_base);
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":975
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":975
  *      else:
  *          Py_INCREF(base) # important to do this before decref below!
  *          baseptr = <PyObject*>base             # <<<<<<<<<<<<<<
@@ -5681,7 +5681,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   }
   __pyx_L3:;
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":976
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":976
  *          Py_INCREF(base) # important to do this before decref below!
  *          baseptr = <PyObject*>base
  *      Py_XDECREF(arr.base)             # <<<<<<<<<<<<<<
@@ -5690,7 +5690,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_XDECREF(__pyx_v_arr->base);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":977
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":977
  *          baseptr = <PyObject*>base
  *      Py_XDECREF(arr.base)
  *      arr.base = baseptr             # <<<<<<<<<<<<<<
@@ -5699,7 +5699,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   __pyx_v_arr->base = __pyx_v_baseptr;
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":969
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":969
  * 
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -5711,7 +5711,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyFinishContext();
 }
 
-/* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":979
+/* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":979
  *      arr.base = baseptr
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -5725,7 +5725,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":980
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":980
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:             # <<<<<<<<<<<<<<
@@ -5735,7 +5735,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = ((__pyx_v_arr->base == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":981
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":981
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -5749,7 +5749,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   }
   /*else*/ {
 
-    /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":983
+    /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":983
  *         return None
  *     else:
  *         return <object>arr.base             # <<<<<<<<<<<<<<
@@ -5760,7 +5760,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     goto __pyx_L0;
   }
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":979
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":979
  *      arr.base = baseptr
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -17091,9 +17091,9 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_C11, __pyx_k_C11, sizeof(__pyx_k_C11), 0, 0, 1, 1},
   {&__pyx_n_s_C12, __pyx_k_C12, sizeof(__pyx_k_C12), 0, 0, 1, 1},
   {&__pyx_n_s_C44, __pyx_k_C44, sizeof(__pyx_k_C44), 0, 0, 1, 1},
+  {&__pyx_kp_s_C_Users_miguel_Dropbox_SimNDT_sr, __pyx_k_C_Users_miguel_Dropbox_SimNDT_sr, sizeof(__pyx_k_C_Users_miguel_Dropbox_SimNDT_sr), 0, 0, 1, 0},
   {&__pyx_kp_s_Can_only_create_a_buffer_that_is, __pyx_k_Can_only_create_a_buffer_that_is, sizeof(__pyx_k_Can_only_create_a_buffer_that_is), 0, 0, 1, 0},
   {&__pyx_kp_s_Cannot_index_with_type_s, __pyx_k_Cannot_index_with_type_s, sizeof(__pyx_k_Cannot_index_with_type_s), 0, 0, 1, 0},
-  {&__pyx_kp_s_D_SimNDT_0_40_SimNDT_engine_efit, __pyx_k_D_SimNDT_0_40_SimNDT_engine_efit, sizeof(__pyx_k_D_SimNDT_0_40_SimNDT_engine_efit), 0, 0, 1, 0},
   {&__pyx_n_s_ETA_S, __pyx_k_ETA_S, sizeof(__pyx_k_ETA_S), 0, 0, 1, 1},
   {&__pyx_n_s_ETA_SS, __pyx_k_ETA_SS, sizeof(__pyx_k_ETA_SS), 0, 0, 1, 1},
   {&__pyx_n_s_ETA_VS, __pyx_k_ETA_VS, sizeof(__pyx_k_ETA_VS), 0, 0, 1, 1},
@@ -17211,7 +17211,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":218
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":218
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
@@ -17222,7 +17222,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":222
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":222
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
@@ -17233,7 +17233,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":260
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":260
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -17244,7 +17244,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":802
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":802
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
@@ -17255,7 +17255,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__4);
   __Pyx_GIVEREF(__pyx_tuple__4);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":806
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":806
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -17266,7 +17266,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
 
-  /* "..\..\..\..\WinPython-64bit-2.7.9.3\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":826
+  /* "D:\WinPython-64bit-2.7.9.4\python-2.7.9.amd64\lib\site-packages\Cython\Includes\numpy\__init__.pxd":826
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
@@ -17422,7 +17422,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__19 = PyTuple_Pack(12, __pyx_n_s_Vx, __pyx_n_s_Vy, __pyx_n_s_XL, __pyx_n_s_YL, __pyx_n_s_source, __pyx_n_s_Stype, __pyx_n_s_win, __pyx_n_s_dtdxx, __pyx_n_s_i, __pyx_n_s_ii, __pyx_n_s_jj, __pyx_n_s_N); if (unlikely(!__pyx_tuple__19)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 7; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__19);
   __Pyx_GIVEREF(__pyx_tuple__19);
-  __pyx_codeobj__20 = (PyObject*)__Pyx_PyCode_New(8, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__19, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_D_SimNDT_0_40_SimNDT_engine_efit, __pyx_n_s_sourceVel, 7, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__20)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 7; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__20 = (PyObject*)__Pyx_PyCode_New(8, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__19, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_miguel_Dropbox_SimNDT_sr, __pyx_n_s_sourceVel, 7, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__20)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 7; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "efit2dcython.pyx":41
  * @cython.boundscheck(False) # turn of bounds-checking for entire function
@@ -17434,7 +17434,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__21 = PyTuple_Pack(12, __pyx_n_s_Txx, __pyx_n_s_Tyy, __pyx_n_s_XL, __pyx_n_s_YL, __pyx_n_s_source, __pyx_n_s_Stype, __pyx_n_s_win, __pyx_n_s_dtdxx, __pyx_n_s_N, __pyx_n_s_i, __pyx_n_s_ii, __pyx_n_s_jj); if (unlikely(!__pyx_tuple__21)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 41; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__21);
   __Pyx_GIVEREF(__pyx_tuple__21);
-  __pyx_codeobj__22 = (PyObject*)__Pyx_PyCode_New(8, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__21, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_D_SimNDT_0_40_SimNDT_engine_efit, __pyx_n_s_sourceStress, 41, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__22)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 41; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__22 = (PyObject*)__Pyx_PyCode_New(8, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__21, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_miguel_Dropbox_SimNDT_sr, __pyx_n_s_sourceStress, 41, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__22)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 41; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "efit2dcython.pyx":68
  * @cython.boundscheck(False)
@@ -17446,7 +17446,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__23 = PyTuple_Pack(16, __pyx_n_s_Txx, __pyx_n_s_Txy, __pyx_n_s_Tyy, __pyx_n_s_vx, __pyx_n_s_vy, __pyx_n_s_d_vx, __pyx_n_s_d_vy, __pyx_n_s_BX, __pyx_n_s_BY, __pyx_n_s_ABS, __pyx_n_s_ddx, __pyx_n_s_dt, __pyx_n_s_M, __pyx_n_s_N, __pyx_n_s_i, __pyx_n_s_j); if (unlikely(!__pyx_tuple__23)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 68; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__23);
   __Pyx_GIVEREF(__pyx_tuple__23);
-  __pyx_codeobj__24 = (PyObject*)__Pyx_PyCode_New(12, 0, 16, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__23, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_D_SimNDT_0_40_SimNDT_engine_efit, __pyx_n_s_velocityVoigt, 68, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__24)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 68; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__24 = (PyObject*)__Pyx_PyCode_New(12, 0, 16, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__23, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_miguel_Dropbox_SimNDT_sr, __pyx_n_s_velocityVoigt, 68, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__24)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 68; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "efit2dcython.pyx":102
  * @cython.boundscheck(False) # turn of bounds-checking for entire function
@@ -17458,7 +17458,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__25 = PyTuple_Pack(19, __pyx_n_s_Txx, __pyx_n_s_Txy, __pyx_n_s_Tyy, __pyx_n_s_vx, __pyx_n_s_vy, __pyx_n_s_d_vx, __pyx_n_s_d_vy, __pyx_n_s_C11, __pyx_n_s_C12, __pyx_n_s_C44, __pyx_n_s_ETA_VS, __pyx_n_s_ETA_S, __pyx_n_s_ETA_SS, __pyx_n_s_ABS, __pyx_n_s_dtx, __pyx_n_s_M, __pyx_n_s_N, __pyx_n_s_i, __pyx_n_s_j); if (unlikely(!__pyx_tuple__25)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 102; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__25);
   __Pyx_GIVEREF(__pyx_tuple__25);
-  __pyx_codeobj__26 = (PyObject*)__Pyx_PyCode_New(15, 0, 19, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__25, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_D_SimNDT_0_40_SimNDT_engine_efit, __pyx_n_s_stressVoigt, 102, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__26)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 102; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__26 = (PyObject*)__Pyx_PyCode_New(15, 0, 19, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__25, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_miguel_Dropbox_SimNDT_sr, __pyx_n_s_stressVoigt, 102, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__26)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 102; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "View.MemoryView":276
  *         return self.name

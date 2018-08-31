@@ -16,8 +16,6 @@ class PreviewSingleLaunch(QDialog):
 
         mpl = MplCanvas(self, width=3, height=3, dpi=100)
 
-
-
         M, N = np.shape(scenario.I)
         Pixel_mm = scenario.Pixel_mm
 

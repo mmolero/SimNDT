@@ -43,7 +43,7 @@ class SignalSetup(QDialog):
         w.setLayout(h)
 
         hBox = QHBoxLayout()
-        #hBox.addWidget(w)
+        hBox.addWidget(w)
         hBox.addWidget(self.widget)
 
         vBox = QVBoxLayout()
