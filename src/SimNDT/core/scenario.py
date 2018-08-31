@@ -176,22 +176,21 @@ class Scenario:
         W,H		:  dimension of rectangle
         """
 
-        a	  = round(H*self.Pixel_mm/2.0)
-        b	  = round(W*self.Pixel_mm/2.0)
+        a = round(H*self.Pixel_mm/2.0)
+        b = round(W*self.Pixel_mm/2.0)
         angle = Theta * np.pi/180.0
-        H0	  = H_0*self.Pixel_mm
-        W0	  = W_0*self.Pixel_mm
+        H0 = H_0*self.Pixel_mm
+        W0 = W_0*self.Pixel_mm
 
         if angle == 0:
             size_a = 4*a
             size_b = 4*b
 
-            vectX = np.floor(np.linspace(-a,a,size_a) + H0)
-            vectY = np.floor(np.linspace(-b,b,size_b) + W0)
-
-            for	x in  vectX:
+            vectX = np.int32(np.linspace(-a,a, size_a) + H0)
+            vectY = np.int32(np.linspace(-b,b, size_b) + W0)
+            for	x in vectX:
                 for y in vectY:
-                    self.I[x,y] = Label
+                    self.I[x, y] = Label
 
         else:
             size_a = 4*a
@@ -199,22 +198,20 @@ class Scenario:
 
             for	 x in  np.linspace(-a,a,size_a):
                 for y in np.linspace(-b,b,size_b):
-                    _xr = np.floor(np.cos(angle)*x - np.sin(angle)*y + H0)
-                    _yr = np.floor(np.sin(angle)*x + np.cos(angle)*y + W0)
+                    _xr = np.int32(np.cos(angle)*x - np.sin(angle)*y + H0)
+                    _yr = np.int32(np.sin(angle)*x + np.cos(angle)*y + W0)
                     self.I[_xr,_yr] = Label
 
         self.updateScenario()
 
 
     def rotate(self, angle=90, direction="clockwise"):
-
         if direction == "clockwise":
             self.I = imrotate(self.I,-1*angle, interp = 'nearest')
             self.M, self.N = np.shape(self.I)
 
             if np.size(self.Iabs) > 1:
                 self.Iabs = imrotate(self.Iabs,-1*angle, interp = 'nearest')
-
 
         else:
             self.I = imrotate(self.I,angle, interp = 'nearest')

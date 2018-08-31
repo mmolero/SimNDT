@@ -108,14 +108,13 @@ class ManagerDialogs(object):
             if self.SimNDT_Scenario:
 
                 try:
-
                     self.SimNDT_Scenario.addRectangle(centerX, centerY, width, height, theta, label)
                     if width!=height:
                         obj = Rectangle(centerX, centerY, width, height, theta, label)
                     else:
                         obj = Square(centerX,centerY, width, theta, label)
 
-                except:
+                except Exception as e:
                     msg = WarningParms("Error in the object generation!!!")
                     msg.exec_()
                     return
