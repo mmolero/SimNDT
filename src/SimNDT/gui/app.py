@@ -1,8 +1,11 @@
 import sys
 import gc
+import time
 
-from PySide.QtCore import *
-from PySide.QtGui import *
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
+Signal = pyqtSignal
 
 from SimNDT.gui.resources_rc import *
 from SimNDT.gui.MainWindow import Info
@@ -47,6 +50,7 @@ def run():
     splash.setMask(splash_pix.mask())
     splash.show()
 
+    time.sleep(1)
 
     import SimNDT.gui.MainWindow as mw
     app.processEvents()

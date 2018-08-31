@@ -1,8 +1,9 @@
 __author__ = 'Miguel'
 
 
-from PySide.QtCore import *
-from PySide.QtGui import *
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
 
 from SimNDT.gui.ui_boundarysetup import Ui_boundarySetupDialog
 from SimNDT.gui.Warnings import WarningParms

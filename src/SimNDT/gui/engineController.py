@@ -4,7 +4,11 @@ __author__ = 'Miguel Molero'
 import time, sys
 import numpy as np
 
-from PySide.QtCore import *
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
+
+
 from SimNDT.gui.Warnings import WarningParms
 
 from SimNDT.engine.efit2d import EFIT2D

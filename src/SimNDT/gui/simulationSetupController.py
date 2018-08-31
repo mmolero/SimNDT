@@ -2,7 +2,10 @@ __author__ = 'Miguel Molero'
 
 import sys
 import numpy as np
-from PySide.QtGui import *
+
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
 
 from SimNDT.gui.ui_simulationsetup import Ui_simulationSetupDialog
 from SimNDT.gui.Warnings import WarningParms

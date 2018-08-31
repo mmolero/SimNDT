@@ -4,8 +4,9 @@ __author__ = 'Miguel  Molero'
 
 import copy, os
 
-from PySide.QtCore import *
-from PySide.QtGui import *
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
 
 try:
     import cv2

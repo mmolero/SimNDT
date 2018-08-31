@@ -2,8 +2,11 @@ __author__ = 'Miguel Molero'
 
 import time
 
-from PySide.QtGui import *
-from PySide.QtCore import *
+
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
+
 from SimNDT.graphics.mplWidget import MplCanvas
 
 import numpy as np
@@ -43,8 +46,13 @@ class PreviewLinearScan(QDialog):
         self.mpl = MplCanvas(width=5, height=5, dpi=100)
         self.mpl.ax.axis('off')
 
+        widget = QWidget()
+        hh = QHBoxLayout()
+        hh.addWidget(self.mpl)
+        widget.setLayout(hh)
+
         layout = QVBoxLayout()
-        layout.addWidget(self.mpl)
+        layout.addWidget(widget)
 
         self.setLayout(layout)
 

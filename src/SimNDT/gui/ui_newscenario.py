@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'newscenario.ui'
+# Form implementation generated from reading ui file 'ui\newscenario.ui'
 #
-# Created: Tue Jun  3 19:57:36 2014
-#      by: pyside-uic 0.2.15 running on PySide 1.2.1
+# Created by: PyQt5 UI code generator 5.6
 #
 # WARNING! All changes made in this file will be lost!
 
-from PySide import QtCore, QtGui
+from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_NewModel(object):
     def setupUi(self, NewModel):
@@ -24,55 +23,55 @@ class Ui_NewModel(object):
         NewModel.setLocale(QtCore.QLocale(QtCore.QLocale.English, QtCore.QLocale.UnitedStates))
         NewModel.setSizeGripEnabled(False)
         NewModel.setModal(True)
-        self.buttonBox = QtGui.QDialogButtonBox(NewModel)
+        self.buttonBox = QtWidgets.QDialogButtonBox(NewModel)
         self.buttonBox.setGeometry(QtCore.QRect(40, 160, 201, 32))
         self.buttonBox.setMaximumSize(QtCore.QSize(300, 300))
         self.buttonBox.setOrientation(QtCore.Qt.Horizontal)
-        self.buttonBox.setStandardButtons(QtGui.QDialogButtonBox.Cancel|QtGui.QDialogButtonBox.Ok)
+        self.buttonBox.setStandardButtons(QtWidgets.QDialogButtonBox.Cancel|QtWidgets.QDialogButtonBox.Ok)
         self.buttonBox.setCenterButtons(True)
         self.buttonBox.setObjectName("buttonBox")
-        self.formLayoutWidget = QtGui.QWidget(NewModel)
+        self.formLayoutWidget = QtWidgets.QWidget(NewModel)
         self.formLayoutWidget.setGeometry(QtCore.QRect(40, 20, 191, 131))
         self.formLayoutWidget.setObjectName("formLayoutWidget")
-        self.formLayout = QtGui.QFormLayout(self.formLayoutWidget)
-        self.formLayout.setSizeConstraint(QtGui.QLayout.SetDefaultConstraint)
+        self.formLayout = QtWidgets.QFormLayout(self.formLayoutWidget)
+        self.formLayout.setSizeConstraint(QtWidgets.QLayout.SetDefaultConstraint)
         self.formLayout.setContentsMargins(0, 0, 0, 0)
         self.formLayout.setObjectName("formLayout")
-        self.widthLabel = QtGui.QLabel(self.formLayoutWidget)
+        self.widthLabel = QtWidgets.QLabel(self.formLayoutWidget)
         self.widthLabel.setObjectName("widthLabel")
-        self.formLayout.setWidget(0, QtGui.QFormLayout.LabelRole, self.widthLabel)
-        self.widthLineEdit = QtGui.QLineEdit(self.formLayoutWidget)
+        self.formLayout.setWidget(0, QtWidgets.QFormLayout.LabelRole, self.widthLabel)
+        self.widthLineEdit = QtWidgets.QLineEdit(self.formLayoutWidget)
         self.widthLineEdit.setMaximumSize(QtCore.QSize(80, 16777215))
         self.widthLineEdit.setObjectName("widthLineEdit")
-        self.formLayout.setWidget(0, QtGui.QFormLayout.FieldRole, self.widthLineEdit)
-        self.heightLabel = QtGui.QLabel(self.formLayoutWidget)
+        self.formLayout.setWidget(0, QtWidgets.QFormLayout.FieldRole, self.widthLineEdit)
+        self.heightLabel = QtWidgets.QLabel(self.formLayoutWidget)
         self.heightLabel.setObjectName("heightLabel")
-        self.formLayout.setWidget(1, QtGui.QFormLayout.LabelRole, self.heightLabel)
-        self.heightLineEdit = QtGui.QLineEdit(self.formLayoutWidget)
+        self.formLayout.setWidget(1, QtWidgets.QFormLayout.LabelRole, self.heightLabel)
+        self.heightLineEdit = QtWidgets.QLineEdit(self.formLayoutWidget)
         self.heightLineEdit.setMaximumSize(QtCore.QSize(80, 16777215))
         self.heightLineEdit.setObjectName("heightLineEdit")
-        self.formLayout.setWidget(1, QtGui.QFormLayout.FieldRole, self.heightLineEdit)
-        self.pixelLabel = QtGui.QLabel(self.formLayoutWidget)
+        self.formLayout.setWidget(1, QtWidgets.QFormLayout.FieldRole, self.heightLineEdit)
+        self.pixelLabel = QtWidgets.QLabel(self.formLayoutWidget)
         self.pixelLabel.setObjectName("pixelLabel")
-        self.formLayout.setWidget(2, QtGui.QFormLayout.LabelRole, self.pixelLabel)
-        self.pixelLineEdit = QtGui.QLineEdit(self.formLayoutWidget)
+        self.formLayout.setWidget(2, QtWidgets.QFormLayout.LabelRole, self.pixelLabel)
+        self.pixelLineEdit = QtWidgets.QLineEdit(self.formLayoutWidget)
         self.pixelLineEdit.setMaximumSize(QtCore.QSize(80, 16777215))
         self.pixelLineEdit.setObjectName("pixelLineEdit")
-        self.formLayout.setWidget(2, QtGui.QFormLayout.FieldRole, self.pixelLineEdit)
-        self.labelLabel = QtGui.QLabel(self.formLayoutWidget)
+        self.formLayout.setWidget(2, QtWidgets.QFormLayout.FieldRole, self.pixelLineEdit)
+        self.labelLabel = QtWidgets.QLabel(self.formLayoutWidget)
         self.labelLabel.setObjectName("labelLabel")
-        self.formLayout.setWidget(3, QtGui.QFormLayout.LabelRole, self.labelLabel)
-        self.labelSpinBox = QtGui.QSpinBox(self.formLayoutWidget)
+        self.formLayout.setWidget(3, QtWidgets.QFormLayout.LabelRole, self.labelLabel)
+        self.labelSpinBox = QtWidgets.QSpinBox(self.formLayoutWidget)
         self.labelSpinBox.setMinimumSize(QtCore.QSize(80, 0))
         self.labelSpinBox.setMaximumSize(QtCore.QSize(80, 16777215))
         self.labelSpinBox.setMaximum(240)
         self.labelSpinBox.setSingleStep(40)
         self.labelSpinBox.setObjectName("labelSpinBox")
-        self.formLayout.setWidget(3, QtGui.QFormLayout.FieldRole, self.labelSpinBox)
+        self.formLayout.setWidget(3, QtWidgets.QFormLayout.FieldRole, self.labelSpinBox)
 
         self.retranslateUi(NewModel)
-        QtCore.QObject.connect(self.buttonBox, QtCore.SIGNAL("accepted()"), NewModel.accept)
-        QtCore.QObject.connect(self.buttonBox, QtCore.SIGNAL("rejected()"), NewModel.reject)
+        self.buttonBox.accepted.connect(NewModel.accept)
+        self.buttonBox.rejected.connect(NewModel.reject)
         QtCore.QMetaObject.connectSlotsByName(NewModel)
         NewModel.setTabOrder(self.buttonBox, self.widthLineEdit)
         NewModel.setTabOrder(self.widthLineEdit, self.heightLineEdit)
@@ -80,9 +79,12 @@ class Ui_NewModel(object):
         NewModel.setTabOrder(self.pixelLineEdit, self.labelSpinBox)
 
     def retranslateUi(self, NewModel):
-        NewModel.setWindowTitle(QtGui.QApplication.translate("NewModel", "New Scenario", None, QtGui.QApplication.UnicodeUTF8))
-        self.widthLabel.setText(QtGui.QApplication.translate("NewModel", "Width (mm)", None, QtGui.QApplication.UnicodeUTF8))
-        self.heightLabel.setText(QtGui.QApplication.translate("NewModel", "Height (mm)", None, QtGui.QApplication.UnicodeUTF8))
-        self.pixelLabel.setText(QtGui.QApplication.translate("NewModel", "Pixel/mm", None, QtGui.QApplication.UnicodeUTF8))
-        self.labelLabel.setText(QtGui.QApplication.translate("NewModel", "Label", None, QtGui.QApplication.UnicodeUTF8))
+        _translate = QtCore.QCoreApplication.translate
+        NewModel.setWindowTitle(_translate("NewModel", "New Scenario"))
+        self.widthLabel.setText(_translate("NewModel", "Width (mm)"))
+        self.heightLabel.setText(_translate("NewModel", "Height (mm)"))
+        self.pixelLabel.setText(_translate("NewModel", "Pixel/mm"))
+        self.labelLabel.setText(_translate("NewModel", "Label"))
+
+import SimNDT.gui.resources_rc
 

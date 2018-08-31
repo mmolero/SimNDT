@@ -2,8 +2,9 @@ __author__ = 'Miguel Molero'
 
 import numpy as np
 
-from PySide.QtCore import *
-from PySide.QtGui import *
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
 
 from SimNDT.gui.ui_signalsetup import Ui_SignalSetupWidget
 from SimNDT.gui.Warnings import WarningParms
@@ -37,8 +38,13 @@ class SignalSetup(QDialog):
         self.mpl = MplCanvas(width=2, height=2, dpi=100)
         self.mpl.ax.axis("off")
 
+        widget = QWidget()
+        hh = QHBoxLayout()
+        hh.addWidget(self.mpl)
+        widget.setLayout(hh)
+
         hBox = QHBoxLayout()
-        hBox.addWidget(self.mpl)
+        hBox.addWidget(widget)
         hBox.addWidget(self.widget)
 
         vBox = QVBoxLayout()

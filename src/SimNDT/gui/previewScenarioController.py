@@ -1,4 +1,6 @@
 __author__ = 'Miguel Molero'
+
+
 from SimNDT.graphics.mplWidget import *
 from matplotlib import cm
 

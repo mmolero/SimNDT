@@ -1,5 +1,9 @@
-from PySide.QtCore import *
-from PySide.QtGui import *
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
+
+Signal = pyqtSignal
+
 import SimNDT.gui.HelperMethods  as HelperMethods
 
 import numpy as np
@@ -47,22 +51,24 @@ def array2qimage(data, vmin = 0.0, vmax = 255.0, cmap=cmap_jet):
     return qimage
 
 
-class RefreshZoom(QObject):
-    zoomed = Signal(int)
-    def __init__(self):
-        QObject.__init__(self)
-
-    def zoom(self, value):
-        self.zoomed.emit(value)
-
-
-
-
-
 class GraphicView(QGraphicsView):
+    zoomed = Signal(int)
+    def __init__(self, parent = None):
+        super(GraphicView, self).__init__(parent)
 
-    def __init__(self, parent, *args, **kwargs):
-        super(GraphicView, self).__init__(*args, **kwargs)
+        self.setFrameStyle(QFrame.NoFrame)
+        self.setViewportUpdateMode(QGraphicsView.SmartViewportUpdate)
+        self.setOptimizationFlag(QGraphicsView.DontAdjustForAntialiasing)
+
+        self.setTransformationAnchor(QGraphicsView.AnchorViewCenter)
+        self.setMouseTracking(True)
+        self.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOn)
+        self.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOn)
+
+        self.scene = QGraphicsScene(0, 0, 1000, 1000)
+        self.setScene(self.scene)
+
+        """
 
         self.parent = parent
         #self.setFrameStyle(QFrame.Sunken | QFrame.StyledPanel)
@@ -83,6 +89,7 @@ class GraphicView(QGraphicsView):
 
         self.setContextMenuPolicy(Qt.CustomContextMenu)
         self.customContextMenuRequested.connect(self.showContextMenu)
+        """
 
     def showContextMenu(self, pos):
         menu = QMenu()
@@ -110,8 +117,7 @@ class GraphicView(QGraphicsView):
         self.setZoom( self.getZoom() + numSteps )
         scale = self._zoom/self.transform().m11()
         self.scale(scale,scale)
-        self.refreshZoom.zoom( int (self.getZoom() ))
-
+        self.zoomed.emit(int (self.getZoom()))
 
     def imshow(self, I):
 
@@ -121,11 +127,8 @@ class GraphicView(QGraphicsView):
         if self.pixmapItem is None:
             self.pixmapItem = self.scene.addPixmap(QPixmap.fromImage(qimage))
             self.pixmapItem.setFlags(QGraphicsItem.ItemIsMovable)
-
         else:
             self.pixmapItem.setPixmap(QPixmap.fromImage(qimage))
-
-
         self.drawColormapBar()
         self.drawAxis()
 
@@ -212,8 +215,7 @@ class GraphicView(QGraphicsView):
 
         qimage = array2qimage(I, vmin = vmin, vmax = vmax, cmap=self.cmap)
         self.pixmapItem = self.scene.addPixmap(QPixmap.fromImage(qimage))
-        #pixmap = self.pixmapItem.pixmap()
-        #self.pixmapItem.setOffset(-pixmap.width()/2.0,-pixmap.height()/2.)
+
         self.pixmapItem.setGraphicsEffect(QGraphicsBlurEffect())
         self.pixmapItem.setFlags(QGraphicsItem.ItemIsMovable)
         qimage = None

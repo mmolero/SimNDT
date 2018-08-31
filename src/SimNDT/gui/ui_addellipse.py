@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'addellipse.ui'
+# Form implementation generated from reading ui file 'ui\addellipse.ui'
 #
-# Created: Tue Jul 29 23:01:54 2014
-#      by: pyside-uic 0.2.15 running on PySide 1.2.2
+# Created by: PyQt5 UI code generator 5.6
 #
 # WARNING! All changes made in this file will be lost!
 
-from PySide import QtCore, QtGui
+from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_addEllipseDialog(object):
     def setupUi(self, addEllipseDialog):
@@ -22,79 +21,82 @@ class Ui_addEllipseDialog(object):
         addEllipseDialog.setLocale(QtCore.QLocale(QtCore.QLocale.English, QtCore.QLocale.UnitedStates))
         addEllipseDialog.setSizeGripEnabled(False)
         addEllipseDialog.setModal(False)
-        self.buttonBox = QtGui.QDialogButtonBox(addEllipseDialog)
+        self.buttonBox = QtWidgets.QDialogButtonBox(addEllipseDialog)
         self.buttonBox.setGeometry(QtCore.QRect(50, 220, 191, 32))
         self.buttonBox.setOrientation(QtCore.Qt.Horizontal)
-        self.buttonBox.setStandardButtons(QtGui.QDialogButtonBox.Cancel|QtGui.QDialogButtonBox.Ok)
+        self.buttonBox.setStandardButtons(QtWidgets.QDialogButtonBox.Cancel|QtWidgets.QDialogButtonBox.Ok)
         self.buttonBox.setObjectName("buttonBox")
-        self.formLayoutWidget = QtGui.QWidget(addEllipseDialog)
+        self.formLayoutWidget = QtWidgets.QWidget(addEllipseDialog)
         self.formLayoutWidget.setGeometry(QtCore.QRect(9, 19, 233, 181))
         self.formLayoutWidget.setObjectName("formLayoutWidget")
-        self.gridLayout = QtGui.QGridLayout(self.formLayoutWidget)
+        self.gridLayout = QtWidgets.QGridLayout(self.formLayoutWidget)
         self.gridLayout.setContentsMargins(0, 0, 0, 0)
         self.gridLayout.setObjectName("gridLayout")
-        self.centerXLabel = QtGui.QLabel(self.formLayoutWidget)
+        self.centerXLabel = QtWidgets.QLabel(self.formLayoutWidget)
         self.centerXLabel.setObjectName("centerXLabel")
         self.gridLayout.addWidget(self.centerXLabel, 0, 0, 1, 1)
-        self.centerXLineEdit = QtGui.QLineEdit(self.formLayoutWidget)
+        self.centerXLineEdit = QtWidgets.QLineEdit(self.formLayoutWidget)
         self.centerXLineEdit.setMinimumSize(QtCore.QSize(80, 0))
         self.centerXLineEdit.setMaximumSize(QtCore.QSize(80, 21))
         self.centerXLineEdit.setObjectName("centerXLineEdit")
         self.gridLayout.addWidget(self.centerXLineEdit, 0, 1, 1, 1)
-        self.centerYLabel = QtGui.QLabel(self.formLayoutWidget)
+        self.centerYLabel = QtWidgets.QLabel(self.formLayoutWidget)
         self.centerYLabel.setObjectName("centerYLabel")
         self.gridLayout.addWidget(self.centerYLabel, 1, 0, 1, 1)
-        self.centerYLineEdit = QtGui.QLineEdit(self.formLayoutWidget)
+        self.centerYLineEdit = QtWidgets.QLineEdit(self.formLayoutWidget)
         self.centerYLineEdit.setMinimumSize(QtCore.QSize(80, 0))
         self.centerYLineEdit.setMaximumSize(QtCore.QSize(80, 16777215))
         self.centerYLineEdit.setObjectName("centerYLineEdit")
         self.gridLayout.addWidget(self.centerYLineEdit, 1, 1, 1, 1)
-        self.semiMajorAxisLabel = QtGui.QLabel(self.formLayoutWidget)
+        self.semiMajorAxisLabel = QtWidgets.QLabel(self.formLayoutWidget)
         self.semiMajorAxisLabel.setObjectName("semiMajorAxisLabel")
         self.gridLayout.addWidget(self.semiMajorAxisLabel, 2, 0, 1, 1)
-        self.semiMajorAxisLineEdit = QtGui.QLineEdit(self.formLayoutWidget)
+        self.semiMajorAxisLineEdit = QtWidgets.QLineEdit(self.formLayoutWidget)
         self.semiMajorAxisLineEdit.setMinimumSize(QtCore.QSize(80, 0))
         self.semiMajorAxisLineEdit.setMaximumSize(QtCore.QSize(80, 16777215))
         self.semiMajorAxisLineEdit.setObjectName("semiMajorAxisLineEdit")
         self.gridLayout.addWidget(self.semiMajorAxisLineEdit, 2, 1, 1, 1)
-        self.semiMinorAxisLabel = QtGui.QLabel(self.formLayoutWidget)
+        self.semiMinorAxisLabel = QtWidgets.QLabel(self.formLayoutWidget)
         self.semiMinorAxisLabel.setObjectName("semiMinorAxisLabel")
         self.gridLayout.addWidget(self.semiMinorAxisLabel, 3, 0, 1, 1)
-        self.semiMinorAxisLineEdit = QtGui.QLineEdit(self.formLayoutWidget)
+        self.semiMinorAxisLineEdit = QtWidgets.QLineEdit(self.formLayoutWidget)
         self.semiMinorAxisLineEdit.setMinimumSize(QtCore.QSize(80, 0))
         self.semiMinorAxisLineEdit.setMaximumSize(QtCore.QSize(80, 16777215))
         self.semiMinorAxisLineEdit.setObjectName("semiMinorAxisLineEdit")
         self.gridLayout.addWidget(self.semiMinorAxisLineEdit, 3, 1, 1, 1)
-        self.angleLabel = QtGui.QLabel(self.formLayoutWidget)
+        self.angleLabel = QtWidgets.QLabel(self.formLayoutWidget)
         self.angleLabel.setObjectName("angleLabel")
         self.gridLayout.addWidget(self.angleLabel, 4, 0, 1, 1)
-        self.angleLineEdit = QtGui.QLineEdit(self.formLayoutWidget)
+        self.angleLineEdit = QtWidgets.QLineEdit(self.formLayoutWidget)
         self.angleLineEdit.setMinimumSize(QtCore.QSize(80, 0))
         self.angleLineEdit.setMaximumSize(QtCore.QSize(80, 16777215))
         self.angleLineEdit.setObjectName("angleLineEdit")
         self.gridLayout.addWidget(self.angleLineEdit, 4, 1, 1, 1)
-        self.labelLabel = QtGui.QLabel(self.formLayoutWidget)
+        self.labelLabel = QtWidgets.QLabel(self.formLayoutWidget)
         self.labelLabel.setObjectName("labelLabel")
         self.gridLayout.addWidget(self.labelLabel, 5, 0, 1, 1)
-        self.labelSpinBox = QtGui.QSpinBox(self.formLayoutWidget)
+        self.labelSpinBox = QtWidgets.QSpinBox(self.formLayoutWidget)
         self.labelSpinBox.setMaximum(240)
         self.labelSpinBox.setSingleStep(40)
         self.labelSpinBox.setObjectName("labelSpinBox")
         self.gridLayout.addWidget(self.labelSpinBox, 5, 1, 1, 1)
 
         self.retranslateUi(addEllipseDialog)
-        QtCore.QObject.connect(self.buttonBox, QtCore.SIGNAL("accepted()"), addEllipseDialog.accept)
-        QtCore.QObject.connect(self.buttonBox, QtCore.SIGNAL("rejected()"), addEllipseDialog.reject)
+        self.buttonBox.accepted.connect(addEllipseDialog.accept)
+        self.buttonBox.rejected.connect(addEllipseDialog.reject)
         QtCore.QMetaObject.connectSlotsByName(addEllipseDialog)
 
     def retranslateUi(self, addEllipseDialog):
-        addEllipseDialog.setWindowTitle(QtGui.QApplication.translate("addEllipseDialog", "Add Ellipse", None, QtGui.QApplication.UnicodeUTF8))
-        addEllipseDialog.setToolTip(QtGui.QApplication.translate("addEllipseDialog", "Add Ellipse", None, QtGui.QApplication.UnicodeUTF8))
-        addEllipseDialog.setStatusTip(QtGui.QApplication.translate("addEllipseDialog", "Add Elipse", None, QtGui.QApplication.UnicodeUTF8))
-        self.centerXLabel.setText(QtGui.QApplication.translate("addEllipseDialog", "Center X (mm)", None, QtGui.QApplication.UnicodeUTF8))
-        self.centerYLabel.setText(QtGui.QApplication.translate("addEllipseDialog", "Center Y (mm)", None, QtGui.QApplication.UnicodeUTF8))
-        self.semiMajorAxisLabel.setText(QtGui.QApplication.translate("addEllipseDialog", "Semi-Major Axis (mm)", None, QtGui.QApplication.UnicodeUTF8))
-        self.semiMinorAxisLabel.setText(QtGui.QApplication.translate("addEllipseDialog", "Semi-Minor Axis (mm)", None, QtGui.QApplication.UnicodeUTF8))
-        self.angleLabel.setText(QtGui.QApplication.translate("addEllipseDialog", "Angle", None, QtGui.QApplication.UnicodeUTF8))
-        self.labelLabel.setText(QtGui.QApplication.translate("addEllipseDialog", "Label", None, QtGui.QApplication.UnicodeUTF8))
+        _translate = QtCore.QCoreApplication.translate
+        addEllipseDialog.setWindowTitle(_translate("addEllipseDialog", "Add Ellipse"))
+        addEllipseDialog.setToolTip(_translate("addEllipseDialog", "Add Ellipse"))
+        addEllipseDialog.setStatusTip(_translate("addEllipseDialog", "Add Elipse"))
+        self.centerXLabel.setText(_translate("addEllipseDialog", "Center X (mm)"))
+        self.centerYLabel.setText(_translate("addEllipseDialog", "Center Y (mm)"))
+        self.semiMajorAxisLabel.setText(_translate("addEllipseDialog", "Semi-Major Axis (mm)"))
+        self.semiMinorAxisLabel.setText(_translate("addEllipseDialog", "Semi-Minor Axis (mm)"))
+        self.angleLabel.setText(_translate("addEllipseDialog", "Angle"))
+        self.labelLabel.setText(_translate("addEllipseDialog", "Label"))
+
+import SimNDT.gui.resources_rc
 

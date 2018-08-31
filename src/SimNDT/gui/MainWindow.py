@@ -2,8 +2,10 @@ import sys, os, datetime
 import numpy as np
 from scipy.io import savemat, loadmat
 
-from PySide.QtCore import *
-from PySide.QtGui import *
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
+Signal = pyqtSignal
 
 from SimNDT.gui.ui_mainwindow import Ui_MainWindow
 
@@ -46,21 +48,22 @@ info = Info()
 
 class MainWindow(QMainWindow, Ui_MainWindow, ManagerDialogs, ManagerPlots):
     def __init__(self, parent=None):
-
         super(MainWindow, self).__init__(parent)
         self.setupUi(self)
         self.init()
 
         self.createMenus()
         self.createToolBar()
-        self.setupGraphicView()
-        self.setupStatusBar()
         self.tree()
+        self.setupStatusBar()
+        self.setupGraphicView()
         self.setupConnections()
+
+
         self.initSettings()
 
+
         isOpenCL(self.statusBarWidget.openclIcon, self.statusBarWidget.openclLabel)
-        self.OnLicence()
 
         self.updateFileMenu()
 
@@ -70,14 +73,6 @@ class MainWindow(QMainWindow, Ui_MainWindow, ManagerDialogs, ManagerPlots):
         if self.filename is None:
             self.initSim()
 
-    def OnLicence(self):
-        year = datetime.datetime.today().year
-        month = datetime.datetime.today().month
-        if year >= YEAR and month >= MONTH:
-            dial = WarningParms('Get the new version!!!!, please contact to: miguel.molero@gmail.com')
-            if dial.exec_():
-                self.close()
-                sys.exit()
 
     def createObjects(self):
 
@@ -96,6 +91,7 @@ class MainWindow(QMainWindow, Ui_MainWindow, ManagerDialogs, ManagerPlots):
         self.SimNDT_ConcreteMicrostructure = None
 
     def setupConnections(self):
+
         self.actionNew_Geometry_Model.triggered.connect(self.newGeometryModel)
         self.actionPreview_Labeled_Scenario.triggered.connect(self.previewScenario)
         self.actionAdd_Ellipse.triggered.connect(self.addEllipse)
@@ -126,7 +122,11 @@ class MainWindow(QMainWindow, Ui_MainWindow, ManagerDialogs, ManagerPlots):
 
         self.actionCreate_Video_from_Images.triggered.connect(self.generateVideo)
 
-        self.GraphicView.refreshZoom.zoomed.connect(self.statusBarWidget.zoomSpinBox.setValue)
+        self.GraphicView.zoomed.connect(self.statusBarWidget.zoomSpinBox.setValue)
+
+        self.statusBarWidget.zoomSpinBox.valueChanged.connect(self.GraphicView.setZoom)
+        self.statusBarWidget.StopStatusBar.clicked.connect(self.stopFunc)
+        self.statusBarWidget.StartPauseStatusBar.clicked.connect(self.startPauseFunc)
 
     def init(self):
 
@@ -144,12 +144,12 @@ class MainWindow(QMainWindow, Ui_MainWindow, ManagerDialogs, ManagerPlots):
         self.setGeometry(100, 100, 900, 600)
         self.setMinimumSize(400, 400)
 
-        self.setWindowTitle('SimNDT v' + self.SimNDT_Info.version)
+        self.setWindowTitle('SimNDT v' + info.version)
         self.setWindowFlags(self.windowFlags())
 
     def setTitle(self, fname):
         title = os.path.basename(fname)
-        self.setWindowTitle('SimNDT v' + self.SimNDT_Info.version + ': ' + title)
+        self.setWindowTitle('SimNDT v' + info.version + ': ' + title)
 
     def loadInitialFile(self):
         settings = QSettings()
@@ -172,7 +172,7 @@ class MainWindow(QMainWindow, Ui_MainWindow, ManagerDialogs, ManagerPlots):
                                                       tip=self.tr("Save Simulation File As"))
 
         fileOpenAction.setIcon(self.style().standardIcon(QStyle.SP_DirOpenIcon))
-        # fileSaveAction.setIcon(self.style().standardIcon(QStyle.SP_FileDialogNewFolder))
+        #fileSaveAction.setIcon(self.style().standardIcon(QStyle.SP_FileDialogNewFolder))
 
 
         fileExportMatlabAction = HelperMethods.createAction(self, "Export in .mat File", self.exportMatlab,
@@ -189,7 +189,7 @@ class MainWindow(QMainWindow, Ui_MainWindow, ManagerDialogs, ManagerPlots):
                                 fileQuitAction)
 
         HelperMethods.setEnabled(self.fileMenuActions[2:5], False)
-        self.connect(self.menuFile, SIGNAL("aboutToShow()"), self.updateFileMenu)
+        self.menuFile.aboutToShow.connect(self.updateFileMenu)
 
         self.geometryMenuActions = (
         self.actionNew_Geometry_Model, None, self.actionAdd_Ellipse, self.actionAdd_Rectangle,
@@ -249,8 +249,7 @@ class MainWindow(QMainWindow, Ui_MainWindow, ManagerDialogs, ManagerPlots):
                 action = QAction(QIcon(":/logo_SimNDT.png"), "&%d %s" % (
                     i + 1, QFileInfo(fname).fileName()), self)
                 action.setData(fname)
-                self.connect(action, SIGNAL("triggered()"),
-                             self.loadFile)
+                action.triggered.connect(self.loadFile)
                 self.menuFile.addAction(action)
 
         self.menuFile.addSeparator()
@@ -339,7 +338,6 @@ class MainWindow(QMainWindow, Ui_MainWindow, ManagerDialogs, ManagerPlots):
             self.addToolBar(Qt.RightToolBarArea, self.GeometryToolBar)
 
     def setupGraphicView(self):
-
         self.GraphicView = GraphicView(self)
         self.setCentralWidget(self.GraphicView)
 
@@ -349,14 +347,10 @@ class MainWindow(QMainWindow, Ui_MainWindow, ManagerDialogs, ManagerPlots):
         self.status.setSizeGripEnabled(False)
 
         self.statusBarWidget = StatusBarWidget()
-        self.connect(self.statusBarWidget.zoomSpinBox, SIGNAL("valueChanged(int)"), self.GraphicView,
-                     SLOT("setZoom(int)"))
 
         self.status.insertPermanentWidget(0, self.statusBarWidget.statusFrame)
         self.status.showMessage("Ready", 15000)
 
-        self.connect(self.statusBarWidget.StopStatusBar, SIGNAL("clicked()"), self.stopFunc)
-        self.connect(self.statusBarWidget.StartPauseStatusBar, SIGNAL("clicked()"), self.startPauseFunc)
 
         self.StopSimulation = False
         self.PauseSimulation = False
@@ -386,7 +380,7 @@ class MainWindow(QMainWindow, Ui_MainWindow, ManagerDialogs, ManagerPlots):
         self.resize(size)
         self.move(position)
 
-        # self.GraphicView.setupZoom(zoom)
+        self.GraphicView.setupZoom(zoom)
         self.statusBarWidget.zoomSpinBox.setValue(zoom)
 
     def resetSettings(self):
@@ -453,11 +447,11 @@ class MainWindow(QMainWindow, Ui_MainWindow, ManagerDialogs, ManagerPlots):
     def initSim(self):
 
         self.createObjects()
-        self.treeWidget.clear()
+        #self.treeWidget.clear()
 
-        self.statusBarWidget.zoomSpinBox.setVisible(False)
-        self.GraphicView.clearUpdate()
-        self.removeDockWidget(self.treeDockWidget)
+        #self.statusBarWidget.zoomSpinBox.setVisible(False)
+        #self.GraphicView.clearUpdate()
+        #self.removeDockWidget(self.treeDockWidget)
 
     def newSim(self):
 
@@ -649,6 +643,7 @@ class MainWindow(QMainWindow, Ui_MainWindow, ManagerDialogs, ManagerPlots):
 
         if self.SimNDT_Scenario is not None:
 
+            """
             try:
                 self.GraphicView.imshow(self.SimNDT_Scenario.I)
 
@@ -657,6 +652,7 @@ class MainWindow(QMainWindow, Ui_MainWindow, ManagerDialogs, ManagerPlots):
                 msgBox = WarningParms("Unable to display GRAPHICS!!!. Incompatible Graphic Card, %s" % e)
                 if msgBox.exec_():
                     sys.exit()
+            """
 
             HelperMethods.setEnabled(self.menuNew_Simulation_Scenario, True)
             HelperMethods.setEnabled(self.fileMenuActions[2:5], True)

@@ -1,8 +1,9 @@
 __author__ = 'Miguel Molero'
 
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
 
-from PySide.QtCore import *
-from PySide.QtGui import *
 
 from SimNDT.gui.ui_addellipse import Ui_addEllipseDialog
 from SimNDT.gui.Warnings import WarningParms

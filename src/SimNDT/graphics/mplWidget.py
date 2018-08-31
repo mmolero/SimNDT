@@ -16,8 +16,11 @@ from matplotlib.backends.backend_qt4agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.backends.backend_qt4agg import NavigationToolbar2QT as NavigationToolbar
 from matplotlib.figure import Figure
 
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
+Signal = pyqtSignal
 
-from PySide.QtGui	import *
 import numpy as np
 
 
@@ -30,14 +33,13 @@ class MplCanvas(FigureCanvas):
 		
 		self.fig  = Figure(figsize=(width, height), dpi=dpi)
 		self.ax   = self.fig.add_subplot(111)
-
 		self.fig.patch.set_facecolor('white')
 		
 		FigureCanvas.__init__(self, self.fig)
 		self.setParent(parent)
-		FigureCanvas.setSizePolicy(self,
-							   QSizePolicy.Preferred,
-							   QSizePolicy.Preferred)
+		#FigureCanvas.setSizePolicy(self,
+		#					   QSizePolicy.Preferred,
+		#					   QSizePolicy.Preferred)
 		FigureCanvas.updateGeometry(self)
 		self.setMinimumSize(250,250)
 		
@@ -54,7 +56,7 @@ class PlotDialog(QDialog):
 		
 		layout = QVBoxLayout()
 		layout.addWidget(self.mpl)
-		layout.addWidget(self.mpl_toolbar,0)
+		layout.addWidget(self.mpl_toolbar)
 		
 		self.setLayout(layout)
 		

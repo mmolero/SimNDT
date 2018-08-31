@@ -7,9 +7,10 @@ Created by Miguel Molero on 2013-08-28.
 Copyright (c) 2013 MMolero. All rights reserved.
 """
 
-import os
-from PySide.QtCore import *
-from PySide.QtGui import *
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
+Signal = pyqtSignal
 
 import collections
 import re, copy
@@ -36,7 +37,8 @@ def createAction(parent, text, slot=None, shortcut=None, icon=None,
         action.setToolTip(tip)
         action.setStatusTip(tip)
     if slot is not None:
-        parent.connect(action, SIGNAL(signal), slot)
+        action.triggered.connect(slot)
+        #parent.connect(action, SIGNAL(signal), slot)
     if checkable:
         action.setCheckable(True)
     return action

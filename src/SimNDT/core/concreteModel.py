@@ -1,5 +1,7 @@
-from PySide.QtGui import *
-from PySide.QtCore import *
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
+Signal = pyqtSignal
 
 import time
 import random

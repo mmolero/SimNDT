@@ -1,6 +1,8 @@
 import numpy as np
 
-from PySide.QtGui import *
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
 
 from SimNDT.gui.Warnings import WarningParms
 from SimNDT.gui.ui_threephasemodeldrycase import Ui_threePhaseModelDryCaseDialog
