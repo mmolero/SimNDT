@@ -1,0 +1,1 @@
+C:\Users\miguel\Dropbox\WPy-3661\python-3.6.6.amd64\python.exe "C:\Users\miguel\Dropbox\WPy-3661\python-3.6.6.amd64\Scripts\pyinstaller.exe" --onedir  --clean  main.spec

@@ -10,7 +10,10 @@ Copyright (c) 2013 MMolero. All rights reserved.
 from __future__ import unicode_literals
 import sys, os, random
 
+os.environ['QT_API'] = 'pyside'
+
 import matplotlib
+matplotlib.use('Qt4Agg')
 matplotlib.rcParams['backend.qt4']='PySide'
 from matplotlib.backends.backend_qt4agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.backends.backend_qt4agg import NavigationToolbar2QT as NavigationToolbar
@@ -27,21 +30,18 @@ class NavigationToolbar(NavigationToolbar):
 
 class MplCanvas(FigureCanvas):
 	def __init__(self, parent=None, width=5, height=4, dpi=100):
-		
+
 		self.fig  = Figure(figsize=(width, height), dpi=dpi)
 		self.ax   = self.fig.add_subplot(111)
 
 		self.fig.patch.set_facecolor('white')
-		
+
 		FigureCanvas.__init__(self, self.fig)
 		self.setParent(parent)
-		FigureCanvas.setSizePolicy(self,
-							   QSizePolicy.Preferred,
-							   QSizePolicy.Preferred)
 		FigureCanvas.updateGeometry(self)
 		self.setMinimumSize(250,250)
-		
-		
+
+
 class PlotDialog(QDialog):
 	
 

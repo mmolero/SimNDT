@@ -14,15 +14,9 @@ class PreviewSingleLaunch(QDialog):
         super(PreviewSingleLaunch, self).__init__(parent)
         self.parent = parent
 
-        mpl = MplCanvas(width=3, height=3, dpi=100)
+        mpl = MplCanvas(self, width=3, height=3, dpi=100)
 
-        layout = QVBoxLayout()
-        layout.addWidget(mpl)
 
-        self.setLayout(layout)
-        self.setWindowFlags(self.windowFlags() | Qt.WindowStaysOnTopHint)
-        self.setWindowTitle(self.tr("Preview"))
-        self.setWindowIcon(QIcon(":/previewImage.png"))
 
         M, N = np.shape(scenario.I)
         Pixel_mm = scenario.Pixel_mm
@@ -33,6 +27,19 @@ class PreviewSingleLaunch(QDialog):
         mpl.ax.hold(True)
         mpl.ax.plot(YL, XL, 'ks')
         mpl.ax.axis('off')
+
+        w = QWidget(self)
+        h = QVBoxLayout()
+        h.addWidget(mpl)
+        w.setLayout(h)
+
+        layout = QVBoxLayout()
+        layout.addWidget(w)
+
+        self.setLayout(layout)
+        self.setWindowFlags(self.windowFlags() | Qt.WindowStaysOnTopHint)
+        self.setWindowTitle(self.tr("Preview"))
+        self.setWindowIcon(QIcon(":/previewImage.png"))
 
 
 class PreviewLinearScan(QDialog):

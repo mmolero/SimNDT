@@ -37,8 +37,13 @@ class SignalSetup(QDialog):
         self.mpl = MplCanvas(width=2, height=2, dpi=100)
         self.mpl.ax.axis("off")
 
+        w = QWidget(self)
+        h = QVBoxLayout()
+        h.addWidget(self.mpl)
+        w.setLayout(h)
+
         hBox = QHBoxLayout()
-        hBox.addWidget(self.mpl)
+        #hBox.addWidget(w)
         hBox.addWidget(self.widget)
 
         vBox = QVBoxLayout()
