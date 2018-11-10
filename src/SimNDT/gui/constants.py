@@ -1,10 +1,9 @@
 __author__ = 'Miguel Molero'
 
-
-
 import sys
 
 FONT_NAME = "TimesNewRomanPSMT"
+
 if sys.platform == "darwin":
 	FONT_SIZE_1 = 13
 	FONT_SIZE_2 = 12
@@ -31,8 +30,6 @@ if (sys.version_info > (3, 0)):
 	MARK = u"\u2713"
 	CROSS = u"\u2718"
 
-	DEGREE_ANGLE = chr(176)
-
 else:
 
 	RHO =  u"\u03C1"
@@ -49,3 +46,5 @@ else:
 	MARK = u"\u2713"
 	CROSS = u"\u2718"
 
+
+DEGREE_ANGLE = chr(176)

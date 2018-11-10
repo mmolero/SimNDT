@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "SimNDT"
-#define MyAppVersion "0.50"
+#define MyAppVersion "0.51"
 #define MyAppPublisher "Miguel Molero"
 #define MyAppURL "https://github.com/mmolero/SimNDT"
 #define MyAppExeName "SimNDT.exe"
