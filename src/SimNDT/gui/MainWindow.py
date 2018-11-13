@@ -38,8 +38,8 @@ MONTH = 12
 
 class Info:
     def __init__(self):
-        self.version = "0.51"
-        self.date = "10-11-2018"
+        self.version = "0.52"
+        self.date = "13-11-2018"
 
 
 info = Info()
