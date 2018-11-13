@@ -648,11 +648,8 @@ class MainWindow(QMainWindow, Ui_MainWindow, ManagerDialogs, ManagerPlots):
     def updateUI(self):
 
         if self.SimNDT_Scenario is not None:
-
             try:
                 self.GraphicView.imshow(self.SimNDT_Scenario.I)
-
-
             except Exception as e:
                 msgBox = WarningParms("Unable to display GRAPHICS!!!. Incompatible Graphic Card, %s" % e)
                 if msgBox.exec_():
@@ -676,6 +673,7 @@ class MainWindow(QMainWindow, Ui_MainWindow, ManagerDialogs, ManagerPlots):
 
         if self.SimNDT_Boundaries is not None:
 
+            aa = np.size(self.SimNDT_Scenario.Iabs)
             if np.size(self.SimNDT_Scenario.Iabs) == 1:
                 self.GraphicView.imshow(self.SimNDT_Scenario.I)
             else:

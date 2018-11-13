@@ -85,11 +85,11 @@ class Scenario:
 
     def applyBoundaries(self, I):
 
-        TP			 = np.around(np.array(self.Tap)  )
+        self.Tap = np.int32(self.Tap)
         M_abs		 = int( self.M	 + self.Tap[0]	+ self.Tap[1] )
-        N_abs		 = int( self.N	 + self.Tap[2]  + self.Tap[3]	 )
+        N_abs		 = int( self.N	 + self.Tap[2]  + self.Tap[3] )
 
-        Iabs		 = 255*np.ones((M_abs,N_abs),dtype=np.uint8)
+        Iabs		 = 255*np.ones((int(M_abs),int(N_abs)),dtype=np.uint8)
         Iabs[self.Tap[0] : M_abs-self.Tap[1], self.Tap[2] : N_abs-self.Tap[3]] = np.copy(I)
         return Iabs
 
