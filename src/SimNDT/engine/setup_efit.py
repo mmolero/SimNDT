@@ -4,7 +4,7 @@ from Cython.Distutils import build_ext
 
 import numpy
 
-ext = Extension("efit2dcython", ["efit2dcython.pyx"],
+ext = Extension("efit2dcython", ["EFIT2Dcython.pyx"],
                 include_dirs = [numpy.get_include()])
                 
 setup(ext_modules=[ext],
