@@ -4,3 +4,5 @@ bin/output
 *.pyc
 
 \.idea/
+
+src/SimNDT/engine/EFIT2Dcython (Case Conflict).c
