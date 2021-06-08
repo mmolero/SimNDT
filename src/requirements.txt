@@ -3,7 +3,7 @@ Cython==0.29.22
 matplotlib==2.0.0
 numpy==1.16.6
 opencv-python==3.1.0.0
-Pillow==6.2.2
+Pillow==8.2.0
 pyopencl==2019.1.1
 PyOpenGL==3.1.0
 PySide==1.2.2
