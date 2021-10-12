@@ -2,7 +2,7 @@ cffi==1.14.5
 Cython==0.29.22
 matplotlib==2.0.0
 numpy==1.16.6
-opencv-python==3.1.0.0
+opencv-python==3.4.7.28
 Pillow==6.2.2
 pyopencl==2019.1.1
 PyOpenGL==3.1.0
